@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+    list-style: none;
+    
+    /* it is used to remove the line that  will in the link below  ..blue line.. */
+    text-decoration:none ;
+}
+
+header{
+    position: fixed;
+    right:0;
+    top:0;
+    z-index: 10000px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:39px 23px;
+    background: transparent;
+} 
+
+ body{
+    background-color:#4bda61;
+  
+   
+ }
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight:700;
+}
+ .navlist{
+    display: flex;
+    
+} 
+
+.navlist a{
+     color:white;
+     margin-left: 30px;
+     font-size: 15px;
+     font-weight: 600;
+     border-bottom: 2px solid transparent;
+} 
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu-icon{
+    color:white;
+    font-size: 30px;
+    z-index: 10001px;
+    cursor: pointer;
+    display: none;
+}
+
+.hero{
+  
+
+    position: relative;
+    margin-top: 300px;
+     display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  
+    
+}
+
+.hero-text{
+    color: white;
+   
+}
+
+.hero-img img{
+    width: 450px;
+   
+}
+.hero-text h5{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-text h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-text h1{
+font-family: 'Darumadrop One', cursive;
+font-weight: bolder;
+font-size: 50px;
+
+}
+
+.hero-text p{
+    margin-bottom: 20px;
+}
+
+.compare-button{
+    background-color: lightgray;
+    padding:10px 10px 10px 10px;
+    border-radius: 15px;
+ 
+}
+
+.play-button{
+    
+
+}
